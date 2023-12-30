@@ -1,0 +1,20 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: viren 5s forwards;
+    
+  }
+  
+  @keyframes viren {
+    0%{
+      background: red; 
+      left: 0px;
+      top: 0px;border-radius:0%;
+     }
+    25%{background: black; left: 400px; top: 0px;border-radius:0%;}
+    50%{background: blue; left: 400px; top: 300px;border-radius:0%;}
+    100%{background: green; left: 0px; top: 300px; border-radius:50%;}
+    
+  }
