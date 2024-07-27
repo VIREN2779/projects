@@ -20,7 +20,7 @@ app.use('/api' , post_route_TableBook);
 
 
 mongoose
-  .connect( "mongodb+srv://virenpatadiya073:viren1T&P@clusterviren0.7czkwhi.mongodb.net/RestaurentProject" )
+  .connect( "mongodb+srv://virenpatadiya073:<password>@clusterviren0.7czkwhi.mongodb.net/RestaurentProject" )
   .then(() => {
     console.log('connected to MongoDB!!');
     app.listen(port, () => {
